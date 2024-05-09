@@ -386,11 +386,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DSW I\\Proyecto_DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj",
+      "projectUniqueName": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj",
       "projectName": "FE-ProyectoDSWI",
-      "projectPath": "D:\\DSW I\\Proyecto_DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj",
+      "projectPath": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj",
       "packagesPath": "C:\\Users\\ghost\\.nuget\\packages\\",
-      "outputPath": "D:\\DSW I\\Proyecto_DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\obj\\",
+      "outputPath": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",

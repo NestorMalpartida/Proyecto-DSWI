@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "371gHx45Bl5VvRfWylC/hOUQIvbs0L/am8woUwfzSbM4Z2EwpT12/R6sCtEXQByWEPg2J0L+XqkfEooUzwSdSg==",
+  "dgSpecHash": "YGnPeLNas59X1bu1eO5fhqKA860RCdxo78t6JwLUibDvRf4o7Dzlcb1xDAnI1abyTUWztvfRryQgg+R1lo05Zg==",
   "success": true,
-  "projectFilePath": "D:\\DSW I\\Proyecto_DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\API-ProyectoDSWI.csproj",
+  "projectFilePath": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\API-ProyectoDSWI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ghost\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ghost\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
