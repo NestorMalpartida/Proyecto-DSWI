@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DSW I\\Proyecto_DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\API-ProyectoDSWI.csproj": {}
+    "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\API-ProyectoDSWI.csproj": {}
   },
   "projects": {
-    "D:\\DSW I\\Proyecto_DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\API-ProyectoDSWI.csproj": {
+    "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\API-ProyectoDSWI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DSW I\\Proyecto_DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\API-ProyectoDSWI.csproj",
+        "projectUniqueName": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\API-ProyectoDSWI.csproj",
         "projectName": "API-ProyectoDSWI",
-        "projectPath": "D:\\DSW I\\Proyecto_DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\API-ProyectoDSWI.csproj",
+        "projectPath": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\API-ProyectoDSWI.csproj",
         "packagesPath": "C:\\Users\\ghost\\.nuget\\packages\\",
-        "outputPath": "D:\\DSW I\\Proyecto_DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\obj\\",
+        "outputPath": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
