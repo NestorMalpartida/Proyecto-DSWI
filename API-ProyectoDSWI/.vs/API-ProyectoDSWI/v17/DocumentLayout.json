@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E94F565B-6262-48D9-AE18-C25797CEE569}|API-ProyectoDSWI\\API-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\api-proyectodswi\\api-proyectodswi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E94F565B-6262-48D9-AE18-C25797CEE569}|API-ProyectoDSWI\\API-ProyectoDSWI.csproj|solutionrelative:api-proyectodswi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\appsettings.json",
-              "RelativeDocumentMoniker": "API-ProyectoDSWI\\appsettings.json",
-              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\appsettings.json",
-              "RelativeToolTip": "API-ProyectoDSWI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-10T00:11:54.432Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

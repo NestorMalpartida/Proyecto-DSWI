@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API-ProyectoDSWI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab73fd160d26153a67b4bc219e2bb50c71ec791b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65ff7eb74aa7fb224b3b5e0f87968fbd75684f6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("API-ProyectoDSWI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API-ProyectoDSWI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
