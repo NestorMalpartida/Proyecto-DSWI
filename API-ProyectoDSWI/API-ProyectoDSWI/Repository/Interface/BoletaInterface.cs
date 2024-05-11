@@ -4,10 +4,8 @@ namespace API_ProyectoDSWI.Repository.Interface
 {
     public interface BoletaInterface
     {
-        IEnumerable<Boleta> findAll();
-        Boleta findById(int codigo);
+        IEnumerable<BoletaDetalle> findAll();
+        BoletaDetalle findById(int codigo);
         string save(Boleta b);
-        string update(Boleta b);
-        string deleteById(int codigo);
     }
 }

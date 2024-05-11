@@ -9,5 +9,7 @@ namespace API_ProyectoDSWI.Repository.Interface
         string save(Cliente c);
         string update(Cliente c);
         string deleteById(int codigo);
+        IEnumerable<ClienteDetalle> findAllClienteDetalle();
+        ClienteDetalle findByIdClienteDetalle(int codigo);
     }
 }

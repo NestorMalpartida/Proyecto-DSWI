@@ -1,0 +1,63 @@
+﻿@model IEnumerable<FE_ProyectoDSWI.Models.BoletaDetalle>
+
+@{
+    ViewData["Title"] = "findAll";
+}
+
+<h1>Lista de Boletas</h1>
+
+<p>
+    @Html.ActionLink("Nuevo Boleta", "save", new { }, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                CODIGO
+            </th>
+            <th>
+                TRABAJADOR
+            </th>
+            <th>
+                CLIENTE
+            </th>
+            <th>
+                FECHA DE EMISION
+            </th>
+            <th>
+                PRODUCTO
+            </th>
+            <th>
+                TOTAL A PAGAR
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.codigo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.usuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaEmision)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.producto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.totalPagar)
+            </td>
+            <td>
+                @Html.ActionLink("Información", "details", new { codigo = item.codigo }, new { @class = "btn btn-warning" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

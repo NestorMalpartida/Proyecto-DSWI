@@ -8,7 +8,6 @@ namespace FE_ProyectoDSWI.Controllers
 {
     public class UsuarioController : Controller
     {
-
         public async Task<IActionResult> findAll()
         {
             List<UsuarioDetalle> lista;

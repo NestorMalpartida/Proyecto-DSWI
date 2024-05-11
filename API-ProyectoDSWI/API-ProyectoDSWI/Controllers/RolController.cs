@@ -9,7 +9,7 @@ namespace API_ProyectoDSWI.Controllers
     public class RolController : ControllerBase
     {
         [HttpGet]
-        public async Task<IActionResult> findAllPais()
+        public async Task<IActionResult> findAllRol()
         {
             var lista = await Task.Run(() => new DAORol().findAll());
             return Ok(lista);

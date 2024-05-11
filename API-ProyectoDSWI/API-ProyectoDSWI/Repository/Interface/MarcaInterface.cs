@@ -9,5 +9,7 @@ namespace API_ProyectoDSWI.Repository.Interface
         string save(Marca m);
         string update(Marca m);
         string deleteById(int codigo);
+        IEnumerable<MarcaDetalle> findAllMarcaDetalle();
+        MarcaDetalle findByIdMarcaDetalle(int codigo);
     }
 }

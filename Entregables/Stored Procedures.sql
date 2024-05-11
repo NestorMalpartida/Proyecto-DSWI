@@ -138,6 +138,19 @@ begin
 end
 go
 
+create or alter procedure usp_findAllMarcaDetalle
+as
+begin
+	Select	m.cod_marca,
+			m.descripcion,
+			p.descripcion,
+			m.ruc,
+			m.telefono,
+			m.correo
+			from tb_marca m inner join tb_pais p on m.cod_pais = p.cod_pais
+end
+go
+
 /*************END******************/
 
 exec usp_saveMarca 'TOYOTA', 3, '20100132592', '800-331-4331', 'toyota@toyota.com'
@@ -187,6 +200,19 @@ create or alter procedure usp_deleteProducto
 as
 begin
 	delete tb_producto where cod_producto = @cod_producto
+end
+go
+
+create or alter procedure usp_findAllProductoDetalle
+as
+begin
+	Select	p.cod_producto,
+			p.nombre,
+			p.descripcion,
+			m.descripcion,
+			p.precio
+			from tb_producto p inner join tb_marca m on p.cod_marca = m.cod_marca
+				
 end
 go
 
@@ -351,6 +377,23 @@ create or alter procedure usp_deleteBoleta
 as
 begin
 	delete tb_boleta where cod_boleta = @cod_boleta
+end
+go
+
+create or alter procedure usp_findAllBoletaDetalle
+as
+begin
+	Select	b.cod_boleta,
+			u.nombre,
+			uc.nombre,
+			b.fecha_emision,
+			p.nombre,
+			b.total_pagar
+			from tb_boleta b 
+			inner join tb_usuario u on b.cod_usuario = u.cod_usuario
+			inner join tb_cliente c on b.cod_cliente = c.cod_cliente
+			inner join tb_producto p on b.cod_producto = p.cod_producto
+			inner join tb_usuario uc on uc.cod_usuario = c.cod_usuario
 end
 go
 

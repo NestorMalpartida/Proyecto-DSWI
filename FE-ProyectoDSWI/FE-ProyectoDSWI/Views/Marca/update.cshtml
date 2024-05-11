@@ -1,0 +1,60 @@
+﻿@model FE_ProyectoDSWI.Models.Marca
+
+@{
+    ViewData["Title"] = "update";
+}
+
+<h1>Actualizar</h1>
+
+<h4>Marca</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="update">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="codigo" class="control-label"></label>
+                <input asp-for="codigo" class="form-control" />
+                <span asp-validation-for="codigo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="descripcion" class="control-label"></label>
+                <input asp-for="descripcion" class="form-control" />
+                <span asp-validation-for="descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="codigoPais" class="control-label"></label>
+                <select asp-for="codigoPais" class="form-control" asp-items="ViewBag.listaPais">
+                    <option value="">Seleccione un Pais</option>
+                </select>
+                <span asp-validation-for="codigoPais" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ruc" class="control-label"></label>
+                <input asp-for="ruc" class="form-control" />
+                <span asp-validation-for="ruc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="telefono" class="control-label"></label>
+                <input asp-for="telefono" class="form-control" />
+                <span asp-validation-for="telefono" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="correo" class="control-label"></label>
+                <input asp-for="correo" class="form-control" />
+                <span asp-validation-for="correo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    @Html.ActionLink("Atrás", "findAll", new { }, new { @class = "btn btn-danger" })
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -26,6 +26,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\GitHub\Proyecto-DSW I\Proyecto-DSWI\FE-ProyectoDSWI\FE-ProyectoDSWI
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/GitHub/Proyecto-DSW I/Proyecto-DSWI/FE-ProyectoDSWI/FE-ProyectoDSWI/Views/Boleta/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9sZXRhXGRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/Proyecto-DSW I/Proyecto-DSWI/FE-ProyectoDSWI/FE-ProyectoDSWI/Views/Boleta/findAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9sZXRhXGZpbmRBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/Proyecto-DSW I/Proyecto-DSWI/FE-ProyectoDSWI/FE-ProyectoDSWI/Views/Boleta/save.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9sZXRhXHNhdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/GitHub/Proyecto-DSW I/Proyecto-DSWI/FE-ProyectoDSWI/FE-ProyectoDSWI/Views/Cliente/details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxkZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,6 +60,38 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/GitHub/Proyecto-DSW I/Proyecto-DSWI/FE-ProyectoDSWI/FE-ProyectoDSWI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/Proyecto-DSW I/Proyecto-DSWI/FE-ProyectoDSWI/FE-ProyectoDSWI/Views/Marca/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcZGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/Proyecto-DSW I/Proyecto-DSWI/FE-ProyectoDSWI/FE-ProyectoDSWI/Views/Marca/findAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcZmluZEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/Proyecto-DSW I/Proyecto-DSWI/FE-ProyectoDSWI/FE-ProyectoDSWI/Views/Marca/save.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2Fcc2F2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/Proyecto-DSW I/Proyecto-DSWI/FE-ProyectoDSWI/FE-ProyectoDSWI/Views/Marca/update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcdXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/Proyecto-DSW I/Proyecto-DSWI/FE-ProyectoDSWI/FE-ProyectoDSWI/Views/Producto/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cZGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/Proyecto-DSW I/Proyecto-DSWI/FE-ProyectoDSWI/FE-ProyectoDSWI/Views/Producto/findAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cZmluZEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/Proyecto-DSW I/Proyecto-DSWI/FE-ProyectoDSWI/FE-ProyectoDSWI/Views/Producto/save.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cc2F2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/Proyecto-DSW I/Proyecto-DSWI/FE-ProyectoDSWI/FE-ProyectoDSWI/Views/Producto/update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cdXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/GitHub/Proyecto-DSW I/Proyecto-DSWI/FE-ProyectoDSWI/FE-ProyectoDSWI/Views/Shared/Error.cshtml]

@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E94F565B-6262-48D9-AE18-C25797CEE569}|API-ProyectoDSWI\\API-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\api-proyectodswi\\api-proyectodswi\\controllers\\boletacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E94F565B-6262-48D9-AE18-C25797CEE569}|API-ProyectoDSWI\\API-ProyectoDSWI.csproj|solutionrelative:api-proyectodswi\\controllers\\boletacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E94F565B-6262-48D9-AE18-C25797CEE569}|API-ProyectoDSWI\\API-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\api-proyectodswi\\api-proyectodswi\\repository\\daofactory\\daoboleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E94F565B-6262-48D9-AE18-C25797CEE569}|API-ProyectoDSWI\\API-ProyectoDSWI.csproj|solutionrelative:api-proyectodswi\\repository\\daofactory\\daoboleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E94F565B-6262-48D9-AE18-C25797CEE569}|API-ProyectoDSWI\\API-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\api-proyectodswi\\api-proyectodswi\\repository\\daofactory\\daoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E94F565B-6262-48D9-AE18-C25797CEE569}|API-ProyectoDSWI\\API-ProyectoDSWI.csproj|solutionrelative:api-proyectodswi\\repository\\daofactory\\daoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E94F565B-6262-48D9-AE18-C25797CEE569}|API-ProyectoDSWI\\API-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\api-proyectodswi\\api-proyectodswi\\repository\\daofactory\\daomarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E94F565B-6262-48D9-AE18-C25797CEE569}|API-ProyectoDSWI\\API-ProyectoDSWI.csproj|solutionrelative:api-proyectodswi\\repository\\daofactory\\daomarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E94F565B-6262-48D9-AE18-C25797CEE569}|API-ProyectoDSWI\\API-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\api-proyectodswi\\api-proyectodswi\\repository\\interface\\boletainterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E94F565B-6262-48D9-AE18-C25797CEE569}|API-ProyectoDSWI\\API-ProyectoDSWI.csproj|solutionrelative:api-proyectodswi\\repository\\interface\\boletainterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E94F565B-6262-48D9-AE18-C25797CEE569}|API-ProyectoDSWI\\API-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\api-proyectodswi\\api-proyectodswi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E94F565B-6262-48D9-AE18-C25797CEE569}|API-ProyectoDSWI\\API-ProyectoDSWI.csproj|solutionrelative:api-proyectodswi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DAOProducto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\Repository\\DAOFactory\\DAOProducto.cs",
+              "RelativeDocumentMoniker": "API-ProyectoDSWI\\Repository\\DAOFactory\\DAOProducto.cs",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\Repository\\DAOFactory\\DAOProducto.cs",
+              "RelativeToolTip": "API-ProyectoDSWI\\Repository\\DAOFactory\\DAOProducto.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAlwIYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T20:09:11.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DAOMarca.cs",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\Repository\\DAOFactory\\DAOMarca.cs",
+              "RelativeDocumentMoniker": "API-ProyectoDSWI\\Repository\\DAOFactory\\DAOMarca.cs",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\Repository\\DAOFactory\\DAOMarca.cs",
+              "RelativeToolTip": "API-ProyectoDSWI\\Repository\\DAOFactory\\DAOMarca.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAmwHUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T19:17:57.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BoletaInterface.cs",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\Repository\\Interface\\BoletaInterface.cs",
+              "RelativeDocumentMoniker": "API-ProyectoDSWI\\Repository\\Interface\\BoletaInterface.cs",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\Repository\\Interface\\BoletaInterface.cs",
+              "RelativeToolTip": "API-ProyectoDSWI\\Repository\\Interface\\BoletaInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T19:21:10.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "API-ProyectoDSWI\\Controllers\\ClienteController.cs",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "API-ProyectoDSWI\\Controllers\\ClienteController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T19:34:41.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BoletaController.cs",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\Controllers\\BoletaController.cs",
+              "RelativeDocumentMoniker": "API-ProyectoDSWI\\Controllers\\BoletaController.cs",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\Controllers\\BoletaController.cs",
+              "RelativeToolTip": "API-ProyectoDSWI\\Controllers\\BoletaController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T19:18:16.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DAOBoleta.cs",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\Repository\\DAOFactory\\DAOBoleta.cs",
+              "RelativeDocumentMoniker": "API-ProyectoDSWI\\Repository\\DAOFactory\\DAOBoleta.cs",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\API-ProyectoDSWI\\API-ProyectoDSWI\\Repository\\DAOFactory\\DAOBoleta.cs",
+              "RelativeToolTip": "API-ProyectoDSWI\\Repository\\DAOFactory\\DAOBoleta.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwDsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T18:54:08.259Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

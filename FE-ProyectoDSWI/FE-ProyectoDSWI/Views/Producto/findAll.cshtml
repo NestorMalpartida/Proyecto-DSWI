@@ -1,0 +1,59 @@
+﻿@model IEnumerable<FE_ProyectoDSWI.Models.ProductoDetalle>
+
+@{
+    ViewData["Title"] = "findAll";
+}
+
+<h1>Lista de Autos</h1>
+
+<p>
+    @Html.ActionLink("Nuevo Auto", "save", new { }, new { @class = "btn btn-primary" })
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                CÓDIGO
+            </th>
+            <th>
+                NOMBRE
+            </th>
+            <th>
+                DESCRIPCION
+            </th>
+            <th>
+                MARCA
+            </th>
+            <th>
+                PRECIO
+            </th>
+            <th>ACCIONES</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.codigo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.precio)
+            </td>
+            <td>
+                    @Html.ActionLink("Actualizar", "update", new { codigo = item.codigo }, new { @class = "btn btn-info" })
+                    @Html.ActionLink("Información", "details", new { codigo = item.codigo }, new { @class = "btn btn-warning" })
+                    @Html.ActionLink("Eliminar", "delete", new { codigo = item.codigo }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
