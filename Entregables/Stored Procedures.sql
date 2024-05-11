@@ -30,6 +30,7 @@ end
 go
 
 exec usp_saveRol 'Administrador'
+exec usp_saveRol 'Vendedor'
 exec usp_saveRol 'Cliente'
 go
 
@@ -238,6 +239,20 @@ begin
 end
 go
 
+create or alter procedure usp_findAllUsuarioDetalle
+as
+begin
+	Select	u.cod_usuario,
+			r.descripcion,
+			u.correo,
+			u.nombre,
+			u.dni,
+			u.telefono
+			from tb_usuario u
+			inner join tb_rol r on u.cod_rol = r.cod_rol
+end
+go
+
 /*************END******************/
 
 /*************CLIENTE******************/
@@ -277,6 +292,19 @@ create or alter procedure usp_deleteCliente
 as
 begin
 	delete tb_cliente where cod_cliente = @cod_cliente
+end
+go
+
+create or alter procedure usp_findAllClienteDetalle
+as
+begin
+	Select  c.cod_cliente,
+			u.nombre,
+			d.descripcion,
+			c.direccion
+			from tb_cliente c 
+			inner join tb_usuario u on c.cod_usuario = u.cod_usuario
+			inner join tb_distrito d on c.cod_distrito = d.cod_distrito
 end
 go
 

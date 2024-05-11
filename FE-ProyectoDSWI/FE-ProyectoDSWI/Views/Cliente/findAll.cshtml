@@ -1,0 +1,53 @@
+﻿@model IEnumerable<FE_ProyectoDSWI.Models.ClienteDetalle>
+
+@{
+    ViewData["Title"] = "findAll";
+}
+
+<h1>Lista de Clientes</h1>
+
+<p>
+    @Html.ActionLink("Nuevo Cliente", "save", new { }, new { @class = "btn btn-primary" })
+</p>
+<table style="text-align:center" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                CÓDIGO
+            </th>
+            <th>
+                USUARIO
+            </th>
+            <th>
+                DISTRITO
+            </th>
+            <th>
+                DIRECCIÓN
+            </th>
+            <th>ACCIONES</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.codigo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.usuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.distrito)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.direccion)
+            </td>
+            <td>
+                    @Html.ActionLink("Actualizar", "update", new { codigo = item.codigo }, new { @class = "btn btn-info" }) 
+                    @Html.ActionLink("Información", "details", new { codigo = item.codigo }, new { @class = "btn btn-warning" }) 
+                    @Html.ActionLink("Eliminar", "delete", new { codigo = item.codigo }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
