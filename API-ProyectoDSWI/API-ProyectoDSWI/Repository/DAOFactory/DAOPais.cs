@@ -17,7 +17,24 @@ namespace API_ProyectoDSWI.Repository.DAOFactory
 
         public IEnumerable<Pais> findAll()
         {
-            throw new NotImplementedException();
+            List<Pais> lista = new List<Pais>();
+            SqlConnection cn = new SqlConnection(cadena);
+            SqlCommand cmd = new SqlCommand("usp_findAllPais", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cn.Open();
+            SqlDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                Pais reg = new Pais();
+                reg.codigo = dr.GetInt32(0);
+                reg.descripcion = dr.GetString(1);
+
+                lista.Add(reg);
+            }
+            dr.Close();
+            cn.Close();
+
+            return lista;
         }
     }
 }

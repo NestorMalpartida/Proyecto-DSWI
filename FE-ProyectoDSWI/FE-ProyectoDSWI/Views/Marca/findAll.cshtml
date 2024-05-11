@@ -1,0 +1,68 @@
+﻿@model IEnumerable<FE_ProyectoDSWI.Models.MarcaDetalle>
+
+@{
+    ViewData["Title"] = "findAll";
+}
+
+<h1>Lista de Marcas</h1>
+
+<p>
+    @Html.ActionLink("Nueva Marca", "save", new { }, new { @class = "btn btn-primary" })
+</p>
+<div class="col-md-12">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>
+                    CÓDIGO
+                </th>
+                <th>
+                    DESCRIPCIÓN
+                </th>
+                <th>
+                    PAÍS
+                </th>
+                <th>
+                    RUC
+                </th>
+                <th>
+                    TELÉFONO
+                </th>
+                <th>
+                    CORREO
+                </th>
+                <th>ACCIONES</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.codigo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.pais)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ruc)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.telefono)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.correo)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Actualizar", "update", new { codigo = item.codigo }, new { @class = "btn btn-info" })
+                        @Html.ActionLink("Información", "details", new { codigo = item.codigo }, new { @class = "btn btn-warning" })
+                        @Html.ActionLink("Eliminar", "delete", new { codigo = item.codigo }, new { @class = "btn btn-danger" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

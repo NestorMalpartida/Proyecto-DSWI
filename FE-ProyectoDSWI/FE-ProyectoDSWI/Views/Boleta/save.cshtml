@@ -1,0 +1,59 @@
+﻿@model FE_ProyectoDSWI.Models.Boleta
+
+@{
+    ViewData["Title"] = "save";
+}
+
+<h1>Generar</h1>
+
+<h4>Boleta</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="save">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="codigoUsuario" class="control-label">Trabajador</label>
+                <select asp-for="codigoUsuario" class="form-control" asp-items="ViewBag.listaUsuario">
+                    <option value="">Seleccione un Usuario</option>
+                </select>
+                <span asp-validation-for="codigoUsuario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="codigoCliente" class="control-label">Cliente</label>
+                <select asp-for="codigoCliente" class="form-control" asp-items="ViewBag.listaCliente">
+                    <option value="">Seleccione un Cliente</option>
+                </select>
+                <span asp-validation-for="codigoCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fechaEmision" class="control-label">Fecha de emision</label>
+                <input type="date" asp-for="fechaEmision" class="form-control" />
+                <span asp-validation-for="fechaEmision" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="codigoProducto" class="control-label">Producto</label>
+                <select asp-for="codigoProducto" class="form-control" asp-items="ViewBag.listaProducto">
+                    <option value="">Seleccione un Producto</option>
+                </select>
+                <span asp-validation-for="codigoProducto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="totalPagar" class="control-label">Total a Pagar</label>
+                <input asp-for="totalPagar" class="form-control" />
+                <span asp-validation-for="totalPagar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Generar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    @Html.ActionLink("Atrás", "findAll", new { }, new { @class = "btn btn-danger" })
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

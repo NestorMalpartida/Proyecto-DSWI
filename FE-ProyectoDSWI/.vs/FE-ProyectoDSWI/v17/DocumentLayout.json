@@ -1,12 +1,343 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\controllers\\boletacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\controllers\\boletacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\boleta\\save.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\boleta\\save.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\boleta\\findall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\boleta\\findall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\cliente\\save.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\cliente\\save.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\boleta\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\boleta\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\cliente\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\cliente\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\producto\\findall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\producto\\findall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\producto\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\producto\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\producto\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\producto\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\producto\\save.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\producto\\save.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\models\\boletadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\models\\boletadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\models\\productodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\models\\productodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\marca\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\marca\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\cliente\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\cliente\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\marca\\findall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\marca\\findall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\marca\\save.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\marca\\save.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|d:\\github\\proyecto-dsw i\\proyecto-dswi\\fe-proyectodswi\\fe-proyectodswi\\views\\marca\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B6F088-36A8-4303-BD6F-D843CADF7B23}|FE-ProyectoDSWI\\FE-ProyectoDSWI.csproj|solutionrelative:fe-proyectodswi\\views\\marca\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "details.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Boleta\\details.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Boleta\\details.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Boleta\\details.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Boleta\\details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T20:06:41.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "save.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Boleta\\save.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Boleta\\save.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Boleta\\save.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Boleta\\save.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T20:04:55.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "findAll.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Boleta\\findAll.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Boleta\\findAll.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Boleta\\findAll.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Boleta\\findAll.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T20:03:04.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BoletaController.cs",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Controllers\\BoletaController.cs",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Controllers\\BoletaController.cs",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Controllers\\BoletaController.cs",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Controllers\\BoletaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T18:22:28.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "findAll.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Producto\\findAll.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Producto\\findAll.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Producto\\findAll.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Producto\\findAll.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T19:47:58.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Controllers\\ProductoController.cs",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Controllers\\ProductoController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAwwEsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T19:38:15.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "save.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Cliente\\save.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Cliente\\save.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Cliente\\save.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Cliente\\save.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T18:15:33.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "details.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Producto\\details.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Producto\\details.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Producto\\details.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Producto\\details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T19:53:21.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "details.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Cliente\\details.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Cliente\\details.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Cliente\\details.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Cliente\\details.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T18:15:36.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "update.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Producto\\update.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Producto\\update.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Producto\\update.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Producto\\update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T19:52:02.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "save.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Producto\\save.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Producto\\save.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Producto\\save.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Producto\\save.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T19:49:42.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BoletaDetalle.cs",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Models\\BoletaDetalle.cs",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Models\\BoletaDetalle.cs",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Models\\BoletaDetalle.cs",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Models\\BoletaDetalle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T19:42:37.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductoDetalle.cs",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Models\\ProductoDetalle.cs",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Models\\ProductoDetalle.cs",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Models\\ProductoDetalle.cs",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Models\\ProductoDetalle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T19:42:18.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T18:45:21.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "details.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Marca\\details.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Marca\\details.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Marca\\details.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Marca\\details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T18:42:38.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "update.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Cliente\\update.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Cliente\\update.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Cliente\\update.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Cliente\\update.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T18:15:35.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "update.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Marca\\update.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Marca\\update.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Marca\\update.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Marca\\update.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T18:33:50.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "save.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Marca\\save.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Marca\\save.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Marca\\save.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Marca\\save.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T18:28:03.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "findAll.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Marca\\findAll.cshtml",
+              "RelativeDocumentMoniker": "FE-ProyectoDSWI\\Views\\Marca\\findAll.cshtml",
+              "ToolTip": "D:\\GitHub\\Proyecto-DSW I\\Proyecto-DSWI\\FE-ProyectoDSWI\\FE-ProyectoDSWI\\Views\\Marca\\findAll.cshtml",
+              "RelativeToolTip": "FE-ProyectoDSWI\\Views\\Marca\\findAll.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T18:14:43.138Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
